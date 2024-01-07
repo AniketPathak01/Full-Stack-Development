@@ -1,0 +1,19 @@
+/* external css */
+
+p{
+    background-color: red;
+    text-align: center;
+    width: 500px;
+}
+/* selector id */
+#para{
+    background-color: aqua;
+    width: 700px;
+}
+/* selector class */
+.demo{
+    background-color: blue;
+}
+article{
+    background-color: green;
+}

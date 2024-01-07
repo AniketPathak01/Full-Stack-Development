@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>PhoneMania</title>
+    <style>
+
+        #imgg{
+            height: 600px;
+        }
+        #buyNow{
+            box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+            margin-left: 10px;
+        }
+        #buyNow:hover{
+            color: black;
+            border: 1px solid black;
+            box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="bg-purple-800 text-white ">
+        <!-- <p class="text-xl flex items-center mx-3 font-bold">PhoneMania</p> -->
+        <li class="px-28 py-3 space-x-10 flex justify-end">
+            <ul class="cursor-pointer">Home</ul>
+            <ul class="cursor-pointer">About</ul> 
+            <ul class="cursor-pointer">Help</ul>
+            <ul class="cursor-pointer">Contact</ul>
+        </li>
+    </nav>
+    <main class="bg-fuchsia-200 flex">
+        <div class="main py-72">
+            <div class="text-6xl pl-14">The best Phones in the town</div>
+            <p class="w-1/2 pl-14 mt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, veniam suscipit architecto maiores itaque neque. Enim eveniet repellat vero voluptatem.</p>
+
+            <div class="pl-14 mt-5">
+                <button class="bg-purple-600 text-white rounded-2xl px-4 py-1 hover:bg-white hover:text-black" id="buyNow">Buy Now</button>
+                <button class="bg-purple-600 text-white rounded-2xl px-4 py-1 hover:bg-white hover:text-black" id="buyNow">Contact us</button>
+            </div>
+        </div>
+        <div class="flex items-center px-28">
+            <img src="Man Showing Smartphone.gif" muted loop autoplay id="imgg"></img>
+        </div>
+    </main>
+</body>
+</html>

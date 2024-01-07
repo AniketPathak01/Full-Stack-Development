@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction</title>
+    <style>
+        .box{
+            height: 90px;
+            width: 110px;
+            border-radius: 10px;
+            background-color: wheat;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            margin: 10px;
+            padding: 10px;
+
+            transition-property: all;
+            transition-duration: 1s;
+            /* transition-delay: 1s; */
+            transition-timing-function: linear;
+            
+        }
+        .box:hover{
+            width: 150px;
+            height: 120px;
+            background-color: rgb(127, 188, 74);
+            color: rgb(166, 9, 74);
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <p>Hover to see the transition</p>
+    </div>
+</body>
+</html>
